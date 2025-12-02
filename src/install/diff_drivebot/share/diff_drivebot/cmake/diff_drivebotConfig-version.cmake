@@ -1,0 +1,1 @@
+/home/vboxuser/ros_ws/src/build/diff_drivebot/ament_cmake_core/diff_drivebotConfig-version.cmake

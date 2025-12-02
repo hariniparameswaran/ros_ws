@@ -1,0 +1,90 @@
+[0.016s] Invoking command in '/home/vboxuser/ros_ws/build/to_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/vboxuser/ros_ws/src/to_urdf -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ros_ws/install/to_urdf
+[0.057s] -- The C compiler identification is GNU 11.4.0
+[0.092s] -- The CXX compiler identification is GNU 11.4.0
+[0.096s] -- Detecting C compiler ABI info
+[0.147s] -- Detecting C compiler ABI info - done
+[0.153s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.153s] -- Detecting C compile features
+[0.153s] -- Detecting C compile features - done
+[0.154s] -- Detecting CXX compiler ABI info
+[0.209s] -- Detecting CXX compiler ABI info - done
+[0.213s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.214s] -- Detecting CXX compile features
+[0.215s] -- Detecting CXX compile features - done
+[0.217s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.315s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.360s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.375s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.397s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.400s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.405s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.412s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.429s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.453s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.454s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.505s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.526s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.553s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.558s] -- Looking for pthread.h
+[0.611s] -- Looking for pthread.h - found
+[0.611s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.662s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.666s] -- Found Threads: TRUE  
+[0.694s] -- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)
+[0.753s] -- Found control_toolbox: 3.6.2 (/opt/ros/humble/share/control_toolbox/cmake)
+[0.811s] -- Found ros_gz: 0.244.20 (/opt/ros/humble/share/ros_gz/cmake)
+[0.812s] -- Found diff_drive_controller: 2.50.1 (/opt/ros/humble/share/diff_drive_controller/cmake)
+[0.855s] -- Found joint_state_broadcaster: 2.50.1 (/opt/ros/humble/share/joint_state_broadcaster/cmake)
+[0.861s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.918s] -- Added test 'lint_cmake' to check CMake code style
+[0.918s] -- Added test 'xmllint' to check XML markup files
+[0.920s] -- Configuring done
+[0.922s] -- Generating done
+[0.924s] -- Build files have been written to: /home/vboxuser/ros_ws/build/to_urdf
+[0.933s] Invoked command in '/home/vboxuser/ros_ws/build/to_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/vboxuser/ros_ws/src/to_urdf -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ros_ws/install/to_urdf
+[0.936s] Invoking command in '/home/vboxuser/ros_ws/build/to_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros_ws/build/to_urdf -- -j14 -l14
+[0.970s] Invoked command in '/home/vboxuser/ros_ws/build/to_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros_ws/build/to_urdf -- -j14 -l14
+[0.971s] Invoking command in '/home/vboxuser/ros_ws/build/to_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/ros_ws/build/to_urdf
+[0.976s] -- Install configuration: ""
+[0.976s] -- Execute custom install script
+[0.976s] -- Symlinking: /home/vboxuser/ros_ws/install/to_urdf/share/to_urdf//urdf/TO_URDF_1.1.csv
+[0.981s] -- Symlinking: /home/vboxuser/ros_ws/install/to_urdf/share/to_urdf//urdf/TO_URDF_1.1.urdf
+[0.986s] -- Symlinking: /home/vboxuser/ros_ws/install/to_urdf/share/to_urdf//urdf/TO_URDF_joint_limited_robot.urdf
+[0.990s] -- Symlinking: /home/vboxuser/ros_ws/install/to_urdf/share/to_urdf//urdf/to.gazebo.xacro
+[0.999s] -- Symlinking: /home/vboxuser/ros_ws/install/to_urdf/share/to_urdf//urdf/to.transmission.xacro
+[1.000s] -- Symlinking: /home/vboxuser/ros_ws/install/to_urdf/share/to_urdf//urdf/to_rover.urdf.xacro
+[1.006s] -- Symlinking: /home/vboxuser/ros_ws/install/to_urdf/share/to_urdf//meshes/collision/LFS.STL
+[1.011s] -- Symlinking: /home/vboxuser/ros_ws/install/to_urdf/share/to_urdf//meshes/collision/LFW.STL
+[1.018s] -- Symlinking: /home/vboxuser/ros_ws/install/to_urdf/share/to_urdf//meshes/collision/LRS.STL
+[1.032s] -- Symlinking: /home/vboxuser/ros_ws/install/to_urdf/share/to_urdf//meshes/collision/LRW.STL
+[1.032s] -- Symlinking: /home/vboxuser/ros_ws/install/to_urdf/share/to_urdf//meshes/collision/RFS.STL
+[1.037s] -- Symlinking: /home/vboxuser/ros_ws/install/to_urdf/share/to_urdf//meshes/collision/RFW.STL
+[1.042s] -- Symlinking: /home/vboxuser/ros_ws/install/to_urdf/share/to_urdf//meshes/collision/RRS.STL
+[1.047s] -- Symlinking: /home/vboxuser/ros_ws/install/to_urdf/share/to_urdf//meshes/collision/RRW.STL
+[1.052s] -- Symlinking: /home/vboxuser/ros_ws/install/to_urdf/share/to_urdf//meshes/collision/base_link.STL
+[1.058s] -- Symlinking: /home/vboxuser/ros_ws/install/to_urdf/share/to_urdf//meshes/visual/LFS.dae
+[1.063s] -- Symlinking: /home/vboxuser/ros_ws/install/to_urdf/share/to_urdf//meshes/visual/LFW.dae
+[1.069s] -- Symlinking: /home/vboxuser/ros_ws/install/to_urdf/share/to_urdf//meshes/visual/LRS.dae
+[1.074s] -- Symlinking: /home/vboxuser/ros_ws/install/to_urdf/share/to_urdf//meshes/visual/LRW.dae
+[1.079s] -- Symlinking: /home/vboxuser/ros_ws/install/to_urdf/share/to_urdf//meshes/visual/RFS.dae
+[1.085s] -- Symlinking: /home/vboxuser/ros_ws/install/to_urdf/share/to_urdf//meshes/visual/RFW.dae
+[1.090s] -- Symlinking: /home/vboxuser/ros_ws/install/to_urdf/share/to_urdf//meshes/visual/RRS.dae
+[1.096s] -- Symlinking: /home/vboxuser/ros_ws/install/to_urdf/share/to_urdf//meshes/visual/RRW.dae
+[1.101s] -- Symlinking: /home/vboxuser/ros_ws/install/to_urdf/share/to_urdf//meshes/visual/base_lnk.dae
+[1.107s] -- Symlinking: /home/vboxuser/ros_ws/install/to_urdf/share/ament_index/resource_index/package_run_dependencies/to_urdf
+[1.115s] -- Symlinking: /home/vboxuser/ros_ws/install/to_urdf/share/ament_index/resource_index/parent_prefix_path/to_urdf
+[1.118s] -- Symlinking: /home/vboxuser/ros_ws/install/to_urdf/share/to_urdf/environment/ament_prefix_path.sh
+[1.128s] -- Symlinking: /home/vboxuser/ros_ws/install/to_urdf/share/to_urdf/environment/ament_prefix_path.dsv
+[1.134s] -- Symlinking: /home/vboxuser/ros_ws/install/to_urdf/share/to_urdf/environment/path.sh
+[1.141s] -- Symlinking: /home/vboxuser/ros_ws/install/to_urdf/share/to_urdf/environment/path.dsv
+[1.147s] -- Symlinking: /home/vboxuser/ros_ws/install/to_urdf/share/to_urdf/local_setup.bash
+[1.155s] -- Symlinking: /home/vboxuser/ros_ws/install/to_urdf/share/to_urdf/local_setup.sh
+[1.160s] -- Symlinking: /home/vboxuser/ros_ws/install/to_urdf/share/to_urdf/local_setup.zsh
+[1.166s] -- Symlinking: /home/vboxuser/ros_ws/install/to_urdf/share/to_urdf/local_setup.dsv
+[1.171s] -- Symlinking: /home/vboxuser/ros_ws/install/to_urdf/share/to_urdf/package.dsv
+[1.176s] -- Symlinking: /home/vboxuser/ros_ws/install/to_urdf/share/ament_index/resource_index/packages/to_urdf
+[1.182s] -- Symlinking: /home/vboxuser/ros_ws/install/to_urdf/share/to_urdf/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.187s] -- Symlinking: /home/vboxuser/ros_ws/install/to_urdf/share/to_urdf/cmake/to_urdfConfig.cmake
+[1.194s] -- Symlinking: /home/vboxuser/ros_ws/install/to_urdf/share/to_urdf/cmake/to_urdfConfig-version.cmake
+[1.200s] -- Symlinking: /home/vboxuser/ros_ws/install/to_urdf/share/to_urdf/package.xml
+[1.207s] Invoked command in '/home/vboxuser/ros_ws/build/to_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/ros_ws/build/to_urdf

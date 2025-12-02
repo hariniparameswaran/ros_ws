@@ -1,0 +1,4 @@
+source;share/to_wheels_drive/local_setup.bash
+source;share/to_wheels_drive/local_setup.dsv
+source;share/to_wheels_drive/local_setup.sh
+source;share/to_wheels_drive/local_setup.zsh

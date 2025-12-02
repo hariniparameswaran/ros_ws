@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="to_rover">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.125 0.138349965988052 -0.175"
+        rpy="0 0 0" />
+      <mass
+        value="6.77486725877128" />
+      <inertia
+        ixx="0.0513980645062783"
+        ixy="-1.22557188228212E-18"
+        ixz="1.77919059306863E-18"
+        iyy="0.0315144067015223"
+        iyz="4.97987572609187E-19"
+        izz="0.0274216662343611" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://to_rover/meshes/visual/base_link.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://to_rover/meshes/collision/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="LFS">
+    <inertial>
+      <origin
+        xyz="0.0078747 -0.08849 2.0817E-16"
+        rpy="0 0 0" />
+      <mass
+        value="0.61195" />
+      <inertia
+        ixx="0.0010504"
+        ixy="-2.7483E-05"
+        ixz="-6.5222E-20"
+        iyy="0.00058666"
+        iyz="-2.6999E-20"
+        izz="0.00068007" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://to_rover/meshes/visual/LFS.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://to_rover/meshes/collision/LFS.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="J1"
+    type="revolute">
+    <origin
+      xyz="0.25 0.035 -0.01"
+      rpy="1.5708 0 -0.0066965" />
+    <parent
+      link="base_link" />
+    <child
+      link="LFS" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="LFW">
+    <inertial>
+      <origin
+        xyz="-0.028027 -0.0125 -0.072381"
+        rpy="0 0 0" />
+      <mass
+        value="0.50721" />
+      <inertia
+        ixx="0.00054363"
+        ixy="-2.4564E-20"
+        ixz="4.0658E-20"
+        iyy="0.00091608"
+        iyz="6.3951E-20"
+        izz="0.00054363" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://to_rover/meshes/visual/LFW.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://to_rover/meshes/collision/LFW.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="W1"
+    type="revolute">
+    <origin
+      xyz="0 -0.017382 0"
+      rpy="0 1.2014 1.5708" />
+    <parent
+      link="LFS" />
+    <child
+      link="LFW" />
+    <axis
+      xyz="0.3611 0 0.93253" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="LRS">
+    <inertial>
+      <origin
+        xyz="0.00787468004487574 -0.0884895645837418 2.22044604925031E-16"
+        rpy="0 0 0" />
+      <mass
+        value="0.611951504988597" />
+      <inertia
+        ixx="0.00105043393551896"
+        ixy="-2.74833514373984E-05"
+        ixz="1.9312351197398E-19"
+        iyy="0.000586662324734037"
+        iyz="-1.28325491509027E-19"
+        izz="0.000680073397553328" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://to_rover/meshes/visual/LRS.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://to_rover/meshes/collision/LRS.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="J2"
+    type="revolute">
+    <origin
+      xyz="0.25 0.315 -0.01"
+      rpy="1.5708 0 0.08872" />
+    <parent
+      link="base_link" />
+    <child
+      link="LRS" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="LRW">
+    <inertial>
+      <origin
+        xyz="-0.028027 -0.0125 -0.072381"
+        rpy="0 0 0" />
+      <mass
+        value="0.50721" />
+      <inertia
+        ixx="0.00054363"
+        ixy="2.2362E-19"
+        ixz="2.7105E-20"
+        iyy="0.00091608"
+        iyz="-4.574E-20"
+        izz="0.00054363" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://to_rover/meshes/visual/LRW.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://to_rover/meshes/collision/LRW.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="W2"
+    type="revolute">
+    <origin
+      xyz="0 -0.017382 0"
+      rpy="0 1.2014 1.5708" />
+    <parent
+      link="LRS" />
+    <child
+      link="LRW" />
+    <axis
+      xyz="0.3611 0 0.93253" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="RFS">
+    <inertial>
+      <origin
+        xyz="0.0201724319185264 -0.0984895645837418 0.034260258301042"
+        rpy="0 0 0" />
+      <mass
+        value="0.611951504988597" />
+      <inertia
+        ixx="0.00105043393551896"
+        ixy="-2.74833514373983E-05"
+        ixz="-9.14795583034644E-20"
+        iyy="0.000586662324734037"
+        iyz="-9.02151730598477E-21"
+        izz="0.000680073397553328" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://to_rover/meshes/visual/RFS.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://to_rover/meshes/collision/RFS.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="J3"
+    type="revolute">
+    <origin
+      xyz="0.01 0 0"
+      rpy="1.5708 0 3.0753" />
+    <parent
+      link="base_link" />
+    <child
+      link="RFS" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="RFW">
+    <inertial>
+      <origin
+        xyz="-0.0280274505133484 -0.0125 -0.072380526760798"
+        rpy="0 0 0" />
+      <mass
+        value="0.507206206931255" />
+      <inertia
+        ixx="0.000543629952666506"
+        ixy="-5.42101086242752E-20"
+        ixz="5.42101086242752E-20"
+        iyy="0.000916077810493713"
+        iyz="1.20278678510111E-19"
+        izz="0.000543629952666506" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://to_rover/meshes/visual/RFW.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://to_rover/meshes/collision/RFW.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="W3"
+    type="revolute">
+    <origin
+      xyz="0.012298 -0.027382 0.03426"
+      rpy="0 1.2014 1.5708" />
+    <parent
+      link="RFS" />
+    <child
+      link="RFW" />
+    <axis
+      xyz="0.3611 0 0.93253" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="RRS">
+    <inertial>
+      <origin
+        xyz="0.00787468004487565 -0.0884895645837418 1.66533453693773E-16"
+        rpy="0 0 0" />
+      <mass
+        value="0.611951504988597" />
+      <inertia
+        ixx="0.00105043393551896"
+        ixy="-2.74833514373983E-05"
+        ixz="7.52165257161819E-19"
+        iyy="0.000586662324734037"
+        iyz="-1.07889540771526E-19"
+        izz="0.000680073397553328" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://to_rover/meshes/visual/RRS.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://to_rover/meshes/collision/RRS.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="J4"
+    type="revolute">
+    <origin
+      xyz="0 0.315 -0.01"
+      rpy="1.5708 0 2.9952" />
+    <parent
+      link="base_link" />
+    <child
+      link="RRS" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="RRW">
+    <inertial>
+      <origin
+        xyz="-0.0280274505133485 -0.0125000000000001 -0.0723805267607979"
+        rpy="0 0 0" />
+      <mass
+        value="0.507206206931255" />
+      <inertia
+        ixx="0.000543629952666506"
+        ixy="7.25060202849681E-19"
+        ixz="4.06575814682064E-20"
+        iyy="0.000916077810493713"
+        iyz="-2.86297136171954E-19"
+        izz="0.000543629952666506" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://to_rover/meshes/visual/RRW.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://to_rover/meshes/collision/RRW.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="W4"
+    type="revolute">
+    <origin
+      xyz="0 -0.017382 0"
+      rpy="0 1.2014 1.5708" />
+    <parent
+      link="RRS" />
+    <child
+      link="RRW" />
+    <axis
+      xyz="0.3611 0 0.93253" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+</robot>

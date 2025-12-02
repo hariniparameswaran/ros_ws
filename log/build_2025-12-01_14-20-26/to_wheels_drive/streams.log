@@ -1,0 +1,86 @@
+[0.016s] Invoking command in '/home/vboxuser/ros_ws/build/to_wheels_drive': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/vboxuser/ros_ws/src/to_wheels_drive -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ros_ws/install/to_wheels_drive
+[0.058s] -- The C compiler identification is GNU 11.4.0
+[0.096s] -- The CXX compiler identification is GNU 11.4.0
+[0.100s] -- Detecting C compiler ABI info
+[0.151s] -- Detecting C compiler ABI info - done
+[0.155s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.155s] -- Detecting C compile features
+[0.155s] -- Detecting C compile features - done
+[0.157s] -- Detecting CXX compiler ABI info
+[0.210s] -- Detecting CXX compiler ABI info - done
+[0.219s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.219s] -- Detecting CXX compile features
+[0.219s] -- Detecting CXX compile features - done
+[0.220s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.317s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.361s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.376s] -- Found rcpputils: 2.4.6 (/opt/ros/humble/share/rcpputils/cmake)
+[0.385s] -- Found control_toolbox: 3.6.2 (/opt/ros/humble/share/control_toolbox/cmake)
+[0.404s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.407s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.412s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.420s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.430s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.455s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.456s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.506s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.523s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.550s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.555s] -- Looking for pthread.h
+[0.629s] -- Looking for pthread.h - found
+[0.630s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.691s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.692s] -- Found Threads: TRUE  
+[0.860s] -- Found controller_interface: 2.52.0 (/opt/ros/humble/share/controller_interface/cmake)
+[0.867s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.877s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[0.879s] -- Found tf2_msgs: 0.25.16 (/opt/ros/humble/share/tf2_msgs/cmake)
+[0.893s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.973s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.973s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/vboxuser/ros_ws/src/to_wheels_drive/include>
+[0.973s] -- Configured cppcheck exclude dirs and/or files: 
+[0.973s] -- Added test 'lint_cmake' to check CMake code style
+[0.974s] -- Added test 'uncrustify' to check C / C++ code style
+[0.974s] -- Configured uncrustify additional arguments: 
+[0.974s] -- Added test 'xmllint' to check XML markup files
+[0.976s] -- Configuring done
+[0.986s] -- Generating done
+[0.989s] -- Build files have been written to: /home/vboxuser/ros_ws/build/to_wheels_drive
+[0.998s] Invoked command in '/home/vboxuser/ros_ws/build/to_wheels_drive' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/vboxuser/ros_ws/src/to_wheels_drive -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ros_ws/install/to_wheels_drive
+[0.999s] Invoking command in '/home/vboxuser/ros_ws/build/to_wheels_drive': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros_ws/build/to_wheels_drive -- -j14 -l14
+[1.034s] [ 33%] [32mBuilding CXX object CMakeFiles/to_wheels_drive.dir/src/to_wheels_drive.cpp.o[0m
+[1.036s] [ 66%] [32mBuilding CXX object CMakeFiles/to_wheels_drive.dir/src/odometry.cpp.o[0m
+[1.504s] [100%] [32m[1mLinking CXX shared library libto_wheels_drive.so[0m
+[1.705s] [100%] Built target to_wheels_drive
+[1.715s] Invoked command in '/home/vboxuser/ros_ws/build/to_wheels_drive' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros_ws/build/to_wheels_drive -- -j14 -l14
+[1.716s] Invoking command in '/home/vboxuser/ros_ws/build/to_wheels_drive': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/ros_ws/build/to_wheels_drive
+[1.721s] -- Install configuration: ""
+[1.722s] -- Execute custom install script
+[1.722s] -- Symlinking: /home/vboxuser/ros_ws/install/to_wheels_drive/share/to_wheels_drive//to_wheels_drive_plugin.xml
+[1.727s] -- Symlinking: /home/vboxuser/ros_ws/install/to_wheels_drive/include/to_wheels_drive/to_wheels_drive/odometry.hpp
+[1.732s] -- Symlinking: /home/vboxuser/ros_ws/install/to_wheels_drive/include/to_wheels_drive/to_wheels_drive/to_wheels_drive.hpp
+[1.737s] -- Symlinking: /home/vboxuser/ros_ws/install/to_wheels_drive/share/to_wheels_drive/environment/library_path.sh
+[1.742s] -- Symlinking: /home/vboxuser/ros_ws/install/to_wheels_drive/share/to_wheels_drive/environment/library_path.dsv
+[1.747s] -- Symlinking: /home/vboxuser/ros_ws/install/to_wheels_drive/share/ament_index/resource_index/package_run_dependencies/to_wheels_drive
+[1.752s] -- Symlinking: /home/vboxuser/ros_ws/install/to_wheels_drive/share/ament_index/resource_index/parent_prefix_path/to_wheels_drive
+[1.756s] -- Symlinking: /home/vboxuser/ros_ws/install/to_wheels_drive/share/to_wheels_drive/environment/ament_prefix_path.sh
+[1.762s] -- Symlinking: /home/vboxuser/ros_ws/install/to_wheels_drive/share/to_wheels_drive/environment/ament_prefix_path.dsv
+[1.767s] -- Symlinking: /home/vboxuser/ros_ws/install/to_wheels_drive/share/to_wheels_drive/environment/path.sh
+[1.773s] -- Symlinking: /home/vboxuser/ros_ws/install/to_wheels_drive/share/to_wheels_drive/environment/path.dsv
+[1.778s] -- Symlinking: /home/vboxuser/ros_ws/install/to_wheels_drive/share/to_wheels_drive/local_setup.bash
+[1.783s] -- Symlinking: /home/vboxuser/ros_ws/install/to_wheels_drive/share/to_wheels_drive/local_setup.sh
+[1.787s] -- Symlinking: /home/vboxuser/ros_ws/install/to_wheels_drive/share/to_wheels_drive/local_setup.zsh
+[1.792s] -- Symlinking: /home/vboxuser/ros_ws/install/to_wheels_drive/share/to_wheels_drive/local_setup.dsv
+[1.797s] -- Symlinking: /home/vboxuser/ros_ws/install/to_wheels_drive/share/to_wheels_drive/package.dsv
+[1.802s] -- Symlinking: /home/vboxuser/ros_ws/install/to_wheels_drive/share/ament_index/resource_index/packages/to_wheels_drive
+[1.807s] -- Symlinking: /home/vboxuser/ros_ws/install/to_wheels_drive/share/ament_index/resource_index/controller_interface__pluginlib__plugin/to_wheels_drive
+[1.811s] -- Symlinking: /home/vboxuser/ros_ws/install/to_wheels_drive/share/to_wheels_drive/cmake/ament_cmake_export_targets-extras.cmake
+[1.817s] -- Symlinking: /home/vboxuser/ros_ws/install/to_wheels_drive/share/to_wheels_drive/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.823s] -- Symlinking: /home/vboxuser/ros_ws/install/to_wheels_drive/share/to_wheels_drive/cmake/to_wheels_driveConfig.cmake
+[1.830s] -- Symlinking: /home/vboxuser/ros_ws/install/to_wheels_drive/share/to_wheels_drive/cmake/to_wheels_driveConfig-version.cmake
+[1.835s] -- Symlinking: /home/vboxuser/ros_ws/install/to_wheels_drive/share/to_wheels_drive/package.xml
+[1.840s] -- Installing: /home/vboxuser/ros_ws/install/to_wheels_drive/lib/libto_wheels_drive.so
+[1.840s] -- Set runtime path of "/home/vboxuser/ros_ws/install/to_wheels_drive/lib/libto_wheels_drive.so" to ""
+[1.840s] -- Installing: /home/vboxuser/ros_ws/install/to_wheels_drive/share/to_wheels_drive/cmake/export_to_wheels_driveExport.cmake
+[1.841s] -- Installing: /home/vboxuser/ros_ws/install/to_wheels_drive/share/to_wheels_drive/cmake/export_to_wheels_driveExport-noconfig.cmake
+[1.842s] Invoked command in '/home/vboxuser/ros_ws/build/to_wheels_drive' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/ros_ws/build/to_wheels_drive

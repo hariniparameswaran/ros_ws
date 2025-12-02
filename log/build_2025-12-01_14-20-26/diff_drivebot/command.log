@@ -1,0 +1,6 @@
+Invoking command in '/home/vboxuser/ros_ws/build/diff_drivebot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/vboxuser/ros_ws/src/diff_drivebot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ros_ws/install/diff_drivebot
+Invoked command in '/home/vboxuser/ros_ws/build/diff_drivebot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/vboxuser/ros_ws/src/diff_drivebot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ros_ws/install/diff_drivebot
+Invoking command in '/home/vboxuser/ros_ws/build/diff_drivebot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros_ws/build/diff_drivebot -- -j14 -l14
+Invoked command in '/home/vboxuser/ros_ws/build/diff_drivebot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros_ws/build/diff_drivebot -- -j14 -l14
+Invoking command in '/home/vboxuser/ros_ws/build/diff_drivebot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/ros_ws/build/diff_drivebot
+Invoked command in '/home/vboxuser/ros_ws/build/diff_drivebot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/ros_ws/build/diff_drivebot

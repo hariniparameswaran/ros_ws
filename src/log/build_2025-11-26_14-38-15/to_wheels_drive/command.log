@@ -1,0 +1,6 @@
+Invoking command in '/home/vboxuser/ros_ws/src/build/to_wheels_drive': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/vboxuser/ros_ws/src/to_wheels_drive -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ros_ws/src/install/to_wheels_drive
+Invoked command in '/home/vboxuser/ros_ws/src/build/to_wheels_drive' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/vboxuser/ros_ws/src/to_wheels_drive -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ros_ws/src/install/to_wheels_drive
+Invoking command in '/home/vboxuser/ros_ws/src/build/to_wheels_drive': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros_ws/src/build/to_wheels_drive -- -j14 -l14
+Invoked command in '/home/vboxuser/ros_ws/src/build/to_wheels_drive' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros_ws/src/build/to_wheels_drive -- -j14 -l14
+Invoking command in '/home/vboxuser/ros_ws/src/build/to_wheels_drive': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/ros_ws/src/build/to_wheels_drive
+Invoked command in '/home/vboxuser/ros_ws/src/build/to_wheels_drive' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/ros_ws/src/build/to_wheels_drive

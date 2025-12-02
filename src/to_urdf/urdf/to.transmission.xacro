@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<robot name="to_rover" xmlns:xacro="http://www.ros.org/wiki/xacro">
+ <xacro:macro name="Steering_transmission_macro"  params="joint_name  motor_name">
+  <transmission name ="trans_${joint_name}">
+   <type>transmission_interface/SimpleTransmission</type>
+   <actuator name="${motor_name}">
+   <hardwareInterface>hardware_interface/position</hardwareInterface>
+   <mechanicalReduction>10</mechanicalReduction>
+   </actuator>
+   <joint name="${joint_name}">
+   <hardwareInterface>hardware_interface/position</hardwareInterface>
+   </joint>
+  </transmission>
+ </xacro:macro>
+ 
+ <xacro:macro name="Drive_transmission_macro"  params="joint_name  motor_name">
+  <transmission name = "trans_${joint_name}">
+   <type>transmission_interface/SimpleTransmission</type>
+   <actuator name="${motor_name}">
+   <hardwareInterface>hardware_interface/velocity</hardwareInterface>
+   <mechanicalReduction>10</mechanicalReduction>
+   </actuator>
+   <joint name="${joint_name}">
+   <hardwareInterface>hardware_interface/velocity</hardwareInterface>
+   </joint>
+  </transmission>
+ </xacro:macro>
+ 
+ 
+  
+ <xacro:Drive_transmission_macro joint_name="W1" motor_name="motor_w1"/> 
+ <xacro:Drive_transmission_macro joint_name="W2" motor_name="motor_w2"/>  
+ <xacro:Drive_transmission_macro joint_name="W3" motor_name="motor_w3"/> 
+ <xacro:Drive_transmission_macro joint_name="W4" motor_name="motor_w4"/> 
+ 
+ <xacro:Steering_transmission_macro joint_name="J1" motor_name="motor_J1"/> 
+ <xacro:Steering_transmission_macro joint_name="J2" motor_name="motor_J2"/> 
+ <xacro:Steering_transmission_macro joint_name="J3" motor_name="motor_J3"/> 
+ <xacro:Steering_transmission_macro joint_name="J4" motor_name="motor_J4"/> 
+ 
+ 
+</robot>

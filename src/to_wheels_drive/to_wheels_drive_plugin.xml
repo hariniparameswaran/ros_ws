@@ -1,0 +1,8 @@
+<library path="to_wheels_drive">
+  <class name="to_wheels_drive/ToWheelsDrive"
+         type="to_wheels_drive::ToWheelsDrive" base_class_type=controller_interface::ControllerInterface>
+  <description>
+    Drives wheels of rover based on velocity input.
+  </description>
+  </class>
+</library>

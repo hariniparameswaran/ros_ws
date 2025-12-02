@@ -1,0 +1,6 @@
+Invoking command in '/home/vboxuser/ros_ws/build/to_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/vboxuser/ros_ws/src/to_urdf -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ros_ws/install/to_urdf
+Invoked command in '/home/vboxuser/ros_ws/build/to_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/vboxuser/ros_ws/src/to_urdf -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ros_ws/install/to_urdf
+Invoking command in '/home/vboxuser/ros_ws/build/to_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros_ws/build/to_urdf -- -j14 -l14
+Invoked command in '/home/vboxuser/ros_ws/build/to_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros_ws/build/to_urdf -- -j14 -l14
+Invoking command in '/home/vboxuser/ros_ws/build/to_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/ros_ws/build/to_urdf
+Invoked command in '/home/vboxuser/ros_ws/build/to_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/ros_ws/build/to_urdf

@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<robot name="to_rover" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+ <gazebo>
+  <plugin name="gz_ros2_control::GazeboSimROS2ControlPlugin" filename="gz_ros2_control-system">
+    <parameters>$(find to_rover)/config/to_control_manager.yaml</parameters>
+  </plugin>
+ </gazebo>
+ 
+ <xacro:macro name="Drive_gazebo" params="link_name">
+  <gazebo reference="${link_name}">
+   <mu1>1.0</mu1>
+   <mu2>1.0</mu2>
+   <kp>100000.0</kp>
+   <kd>10.0</kd>
+   <fdir1>0 1 0</fdir1>
+   <minDepth>0.001</minDepth>
+   <maxVel>0.0</maxVel>
+  </gazebo>
+ </xacro:macro>
+ <xacro:macro name="Steer_gazebo" params="link_name">
+  <gazebo reference="${link_name}">
+   <mu1>1.0</mu1>
+   <mu2>1.0</mu2>
+   <kp>50000.0</kp>
+   <kd>5.0</kd>
+   <fdir1>0 1 0</fdir1>
+   <minDepth>0.001</minDepth>
+   <maxVel>0.0</maxVel>
+  </gazebo>
+ </xacro:macro>
+ 
+ 
+ <xacro:Drive_gazebo link_name="LFW"/> 
+ <xacro:Drive_gazebo link_name="LRW"/> 
+ <xacro:Drive_gazebo link_name="RFW"/> 
+ <xacro:Drive_gazebo link_name="RRW"/> 
+ 
+ <xacro:Steer_gazebo link_name="LFS"/> 
+ <xacro:Steer_gazebo link_name="LRS"/> 
+ <xacro:Steer_gazebo link_name="RFS"/> 
+ <xacro:Steer_gazebo link_name="RRS"/> 
+ 
+ 
+</robot>

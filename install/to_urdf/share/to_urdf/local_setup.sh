@@ -1,0 +1,1 @@
+/home/vboxuser/ros_ws/build/to_urdf/ament_cmake_environment_hooks/local_setup.sh

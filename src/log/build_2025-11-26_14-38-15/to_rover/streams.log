@@ -1,0 +1,85 @@
+[0.011s] Invoking command in '/home/vboxuser/ros_ws/src/build/to_rover': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/vboxuser/ros_ws/src/to_rover -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ros_ws/src/install/to_rover
+[0.022s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.102s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.106s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.124s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.126s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.130s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.137s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.145s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.166s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.167s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.227s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.256s] -- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)
+[0.305s] -- Found control_toolbox: 3.6.2 (/opt/ros/humble/share/control_toolbox/cmake)
+[0.345s] -- Found ros_gz: 0.244.20 (/opt/ros/humble/share/ros_gz/cmake)
+[0.345s] -- Found ackermann_steering_controller: 2.50.1 (/opt/ros/humble/share/ackermann_steering_controller/cmake)
+[0.390s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.391s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.411s] -- Found joint_state_broadcaster: 2.50.1 (/opt/ros/humble/share/joint_state_broadcaster/cmake)
+[0.415s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.458s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.458s] -- Configured cppcheck include dirs: 
+[0.458s] -- Configured cppcheck exclude dirs and/or files: 
+[0.459s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.459s] -- Added test 'lint_cmake' to check CMake code style
+[0.459s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.461s] -- Added test 'uncrustify' to check C / C++ code style
+[0.461s] -- Configured uncrustify additional arguments: 
+[0.461s] -- Added test 'xmllint' to check XML markup files
+[0.463s] -- Configuring done
+[0.468s] -- Generating done
+[0.470s] -- Build files have been written to: /home/vboxuser/ros_ws/src/build/to_rover
+[0.476s] Invoked command in '/home/vboxuser/ros_ws/src/build/to_rover' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/vboxuser/ros_ws/src/to_rover -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ros_ws/src/install/to_rover
+[0.477s] Invoking command in '/home/vboxuser/ros_ws/src/build/to_rover': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros_ws/src/build/to_rover -- -j14 -l14
+[0.499s] Invoked command in '/home/vboxuser/ros_ws/src/build/to_rover' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros_ws/src/build/to_rover -- -j14 -l14
+[0.501s] Invoking command in '/home/vboxuser/ros_ws/src/build/to_rover': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/ros_ws/src/build/to_rover
+[0.504s] -- Install configuration: ""
+[0.505s] -- Execute custom install script
+[0.505s] -- Up-to-date symlink: /home/vboxuser/ros_ws/src/install/to_rover/share/to_rover//launch/display.launch
+[0.505s] -- Up-to-date symlink: /home/vboxuser/ros_ws/src/install/to_rover/share/to_rover//launch/view_to.launch.py
+[0.505s] -- Symlinking: /home/vboxuser/ros_ws/src/install/to_rover/share/to_rover//urdf/TO_URDF_1.1.csv
+[0.510s] -- Symlinking: /home/vboxuser/ros_ws/src/install/to_rover/share/to_rover//urdf/TO_URDF_1.1.urdf
+[0.515s] -- Symlinking: /home/vboxuser/ros_ws/src/install/to_rover/share/to_rover//urdf/TO_URDF_joint_limited_robot.urdf
+[0.519s] -- Up-to-date symlink: /home/vboxuser/ros_ws/src/install/to_rover/share/to_rover//urdf/to.gazebo.xacro
+[0.519s] -- Up-to-date symlink: /home/vboxuser/ros_ws/src/install/to_rover/share/to_rover//urdf/to.transmission.xacro
+[0.519s] -- Up-to-date symlink: /home/vboxuser/ros_ws/src/install/to_rover/share/to_rover//urdf/to_rover.urdf
+[0.519s] -- Up-to-date symlink: /home/vboxuser/ros_ws/src/install/to_rover/share/to_rover//urdf/to_rover.urdf.xacro
+[0.520s] -- Up-to-date symlink: /home/vboxuser/ros_ws/src/install/to_rover/share/to_rover//meshes/collision/LFS.STL
+[0.520s] -- Up-to-date symlink: /home/vboxuser/ros_ws/src/install/to_rover/share/to_rover//meshes/collision/LFW.STL
+[0.520s] -- Up-to-date symlink: /home/vboxuser/ros_ws/src/install/to_rover/share/to_rover//meshes/collision/LRS.STL
+[0.520s] -- Up-to-date symlink: /home/vboxuser/ros_ws/src/install/to_rover/share/to_rover//meshes/collision/LRW.STL
+[0.520s] -- Up-to-date symlink: /home/vboxuser/ros_ws/src/install/to_rover/share/to_rover//meshes/collision/RFS.STL
+[0.520s] -- Up-to-date symlink: /home/vboxuser/ros_ws/src/install/to_rover/share/to_rover//meshes/collision/RFW.STL
+[0.520s] -- Up-to-date symlink: /home/vboxuser/ros_ws/src/install/to_rover/share/to_rover//meshes/collision/RRS.STL
+[0.520s] -- Up-to-date symlink: /home/vboxuser/ros_ws/src/install/to_rover/share/to_rover//meshes/collision/RRW.STL
+[0.521s] -- Up-to-date symlink: /home/vboxuser/ros_ws/src/install/to_rover/share/to_rover//meshes/collision/base_link.STL
+[0.521s] -- Up-to-date symlink: /home/vboxuser/ros_ws/src/install/to_rover/share/to_rover//meshes/visual/LFS.dae
+[0.521s] -- Up-to-date symlink: /home/vboxuser/ros_ws/src/install/to_rover/share/to_rover//meshes/visual/LFW.dae
+[0.521s] -- Up-to-date symlink: /home/vboxuser/ros_ws/src/install/to_rover/share/to_rover//meshes/visual/LRS.dae
+[0.521s] -- Up-to-date symlink: /home/vboxuser/ros_ws/src/install/to_rover/share/to_rover//meshes/visual/LRW.dae
+[0.521s] -- Up-to-date symlink: /home/vboxuser/ros_ws/src/install/to_rover/share/to_rover//meshes/visual/RFS.dae
+[0.521s] -- Up-to-date symlink: /home/vboxuser/ros_ws/src/install/to_rover/share/to_rover//meshes/visual/RFW.dae
+[0.521s] -- Up-to-date symlink: /home/vboxuser/ros_ws/src/install/to_rover/share/to_rover//meshes/visual/RRS.dae
+[0.521s] -- Up-to-date symlink: /home/vboxuser/ros_ws/src/install/to_rover/share/to_rover//meshes/visual/RRW.dae
+[0.521s] -- Up-to-date symlink: /home/vboxuser/ros_ws/src/install/to_rover/share/to_rover//meshes/visual/base_link.dae
+[0.522s] -- Up-to-date symlink: /home/vboxuser/ros_ws/src/install/to_rover/share/to_rover//src/Wheel_control.cpp
+[0.522s] -- Up-to-date symlink: /home/vboxuser/ros_ws/src/install/to_rover/share/to_rover//config/joint_names_to_rover.yaml
+[0.523s] -- Up-to-date symlink: /home/vboxuser/ros_ws/src/install/to_rover/share/to_rover//config/to_control_manager.yaml
+[0.523s] -- Up-to-date symlink: /home/vboxuser/ros_ws/src/install/to_rover/share/ament_index/resource_index/package_run_dependencies/to_rover
+[0.523s] -- Up-to-date symlink: /home/vboxuser/ros_ws/src/install/to_rover/share/ament_index/resource_index/parent_prefix_path/to_rover
+[0.524s] -- Up-to-date symlink: /home/vboxuser/ros_ws/src/install/to_rover/share/to_rover/environment/ament_prefix_path.sh
+[0.524s] -- Up-to-date symlink: /home/vboxuser/ros_ws/src/install/to_rover/share/to_rover/environment/ament_prefix_path.dsv
+[0.524s] -- Up-to-date symlink: /home/vboxuser/ros_ws/src/install/to_rover/share/to_rover/environment/path.sh
+[0.525s] -- Up-to-date symlink: /home/vboxuser/ros_ws/src/install/to_rover/share/to_rover/environment/path.dsv
+[0.525s] -- Up-to-date symlink: /home/vboxuser/ros_ws/src/install/to_rover/share/to_rover/local_setup.bash
+[0.525s] -- Up-to-date symlink: /home/vboxuser/ros_ws/src/install/to_rover/share/to_rover/local_setup.sh
+[0.525s] -- Up-to-date symlink: /home/vboxuser/ros_ws/src/install/to_rover/share/to_rover/local_setup.zsh
+[0.526s] -- Up-to-date symlink: /home/vboxuser/ros_ws/src/install/to_rover/share/to_rover/local_setup.dsv
+[0.526s] -- Symlinking: /home/vboxuser/ros_ws/src/install/to_rover/share/to_rover/package.dsv
+[0.531s] -- Up-to-date symlink: /home/vboxuser/ros_ws/src/install/to_rover/share/ament_index/resource_index/packages/to_rover
+[0.531s] -- Up-to-date symlink: /home/vboxuser/ros_ws/src/install/to_rover/share/to_rover/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.531s] -- Up-to-date symlink: /home/vboxuser/ros_ws/src/install/to_rover/share/to_rover/cmake/to_roverConfig.cmake
+[0.531s] -- Up-to-date symlink: /home/vboxuser/ros_ws/src/install/to_rover/share/to_rover/cmake/to_roverConfig-version.cmake
+[0.531s] -- Up-to-date symlink: /home/vboxuser/ros_ws/src/install/to_rover/share/to_rover/package.xml
+[0.533s] Invoked command in '/home/vboxuser/ros_ws/src/build/to_rover' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/ros_ws/src/build/to_rover

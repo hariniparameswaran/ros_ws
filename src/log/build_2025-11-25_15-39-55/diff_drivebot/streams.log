@@ -1,0 +1,87 @@
+[0.008s] Invoking command in '/home/vboxuser/ros_ws/src/build/diff_drivebot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/vboxuser/ros_ws/src/diff_drivebot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ros_ws/src/install/diff_drivebot
+[0.047s] -- The C compiler identification is GNU 11.4.0
+[0.079s] -- The CXX compiler identification is GNU 11.4.0
+[0.084s] -- Detecting C compiler ABI info
+[0.126s] -- Detecting C compiler ABI info - done
+[0.131s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.131s] -- Detecting C compile features
+[0.131s] -- Detecting C compile features - done
+[0.133s] -- Detecting CXX compiler ABI info
+[0.182s] -- Detecting CXX compiler ABI info - done
+[0.185s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.185s] -- Detecting CXX compile features
+[0.185s] -- Detecting CXX compile features - done
+[0.187s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.280s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.318s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.333s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.356s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.359s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.363s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.370s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.380s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.406s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.406s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.462s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.478s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.502s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.507s] -- Looking for pthread.h
+[0.555s] -- Looking for pthread.h - found
+[0.555s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.600s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.602s] -- Found Threads: TRUE  
+[0.641s] -- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)
+[0.694s] -- Found control_toolbox: 3.6.2 (/opt/ros/humble/share/control_toolbox/cmake)
+[0.758s] -- Found ros_gz: 0.244.20 (/opt/ros/humble/share/ros_gz/cmake)
+[0.759s] -- Found diff_drive_controller: 2.50.1 (/opt/ros/humble/share/diff_drive_controller/cmake)
+[0.797s] -- Found joint_state_broadcaster: 2.50.1 (/opt/ros/humble/share/joint_state_broadcaster/cmake)
+[0.803s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.853s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.853s] -- Added test 'lint_cmake' to check CMake code style
+[0.853s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.853s] -- Added test 'xmllint' to check XML markup files
+[0.854s] -- Configuring done
+[0.857s] -- Generating done
+[0.859s] -- Build files have been written to: /home/vboxuser/ros_ws/src/build/diff_drivebot
+[0.866s] Invoked command in '/home/vboxuser/ros_ws/src/build/diff_drivebot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/vboxuser/ros_ws/src/diff_drivebot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ros_ws/src/install/diff_drivebot
+[0.868s] Invoking command in '/home/vboxuser/ros_ws/src/build/diff_drivebot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros_ws/src/build/diff_drivebot -- -j14 -l14
+[0.892s] Invoked command in '/home/vboxuser/ros_ws/src/build/diff_drivebot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros_ws/src/build/diff_drivebot -- -j14 -l14
+[0.897s] Invoking command in '/home/vboxuser/ros_ws/src/build/diff_drivebot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/ros_ws/src/build/diff_drivebot
+[0.901s] -- Install configuration: ""
+[0.902s] -- Execute custom install script
+[0.902s] -- Symlinking: /home/vboxuser/ros_ws/src/install/diff_drivebot/share/diff_drivebot//launch/display.launch
+[0.907s] -- Symlinking: /home/vboxuser/ros_ws/src/install/diff_drivebot/share/diff_drivebot//launch/gazebo.launch
+[0.912s] -- Symlinking: /home/vboxuser/ros_ws/src/install/diff_drivebot/share/diff_drivebot//launch/view_diff.launch.py
+[0.918s] -- Symlinking: /home/vboxuser/ros_ws/src/install/diff_drivebot/share/diff_drivebot//urdf/Diff_Drive_1.4.csv
+[0.922s] -- Symlinking: /home/vboxuser/ros_ws/src/install/diff_drivebot/share/diff_drivebot//urdf/Diff_Drive_1.4.urdf
+[0.928s] -- Symlinking: /home/vboxuser/ros_ws/src/install/diff_drivebot/share/diff_drivebot//urdf/diff_drive.urdf.xacro
+[0.935s] -- Symlinking: /home/vboxuser/ros_ws/src/install/diff_drivebot/share/diff_drivebot//urdf/diff_drive_joint_limited_robot.urdf
+[0.939s] -- Symlinking: /home/vboxuser/ros_ws/src/install/diff_drivebot/share/diff_drivebot//meshes/collision/LFW.STL
+[0.944s] -- Symlinking: /home/vboxuser/ros_ws/src/install/diff_drivebot/share/diff_drivebot//meshes/collision/LRW.STL
+[0.949s] -- Symlinking: /home/vboxuser/ros_ws/src/install/diff_drivebot/share/diff_drivebot//meshes/collision/RFW.STL
+[0.953s] -- Symlinking: /home/vboxuser/ros_ws/src/install/diff_drivebot/share/diff_drivebot//meshes/collision/RRW.STL
+[0.958s] -- Symlinking: /home/vboxuser/ros_ws/src/install/diff_drivebot/share/diff_drivebot//meshes/collision/base_link_diff.STL
+[0.962s] -- Symlinking: /home/vboxuser/ros_ws/src/install/diff_drivebot/share/diff_drivebot//meshes/visual/LFW.dae
+[0.966s] -- Symlinking: /home/vboxuser/ros_ws/src/install/diff_drivebot/share/diff_drivebot//meshes/visual/LRW.dae
+[0.971s] -- Symlinking: /home/vboxuser/ros_ws/src/install/diff_drivebot/share/diff_drivebot//meshes/visual/RFW.dae
+[0.975s] -- Symlinking: /home/vboxuser/ros_ws/src/install/diff_drivebot/share/diff_drivebot//meshes/visual/RRW.dae
+[0.980s] -- Symlinking: /home/vboxuser/ros_ws/src/install/diff_drivebot/share/diff_drivebot//meshes/visual/base_link_diff.dae
+[0.985s] -- Symlinking: /home/vboxuser/ros_ws/src/install/diff_drivebot/share/diff_drivebot//config/diff_control.yaml
+[0.989s] -- Symlinking: /home/vboxuser/ros_ws/src/install/diff_drivebot/share/diff_drivebot//config/joint_names_Diff_Drive_1.4.yaml
+[0.994s] -- Symlinking: /home/vboxuser/ros_ws/src/install/diff_drivebot/share/ament_index/resource_index/package_run_dependencies/diff_drivebot
+[0.998s] -- Symlinking: /home/vboxuser/ros_ws/src/install/diff_drivebot/share/ament_index/resource_index/parent_prefix_path/diff_drivebot
+[1.003s] -- Symlinking: /home/vboxuser/ros_ws/src/install/diff_drivebot/share/diff_drivebot/environment/ament_prefix_path.sh
+[1.007s] -- Symlinking: /home/vboxuser/ros_ws/src/install/diff_drivebot/share/diff_drivebot/environment/ament_prefix_path.dsv
+[1.012s] -- Symlinking: /home/vboxuser/ros_ws/src/install/diff_drivebot/share/diff_drivebot/environment/path.sh
+[1.018s] -- Symlinking: /home/vboxuser/ros_ws/src/install/diff_drivebot/share/diff_drivebot/environment/path.dsv
+[1.026s] -- Symlinking: /home/vboxuser/ros_ws/src/install/diff_drivebot/share/diff_drivebot/local_setup.bash
+[1.033s] -- Symlinking: /home/vboxuser/ros_ws/src/install/diff_drivebot/share/diff_drivebot/local_setup.sh
+[1.036s] -- Symlinking: /home/vboxuser/ros_ws/src/install/diff_drivebot/share/diff_drivebot/local_setup.zsh
+[1.042s] -- Symlinking: /home/vboxuser/ros_ws/src/install/diff_drivebot/share/diff_drivebot/local_setup.dsv
+[1.046s] -- Symlinking: /home/vboxuser/ros_ws/src/install/diff_drivebot/share/diff_drivebot/package.dsv
+[1.051s] -- Symlinking: /home/vboxuser/ros_ws/src/install/diff_drivebot/share/ament_index/resource_index/packages/diff_drivebot
+[1.056s] -- Symlinking: /home/vboxuser/ros_ws/src/install/diff_drivebot/share/diff_drivebot/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.061s] -- Symlinking: /home/vboxuser/ros_ws/src/install/diff_drivebot/share/diff_drivebot/cmake/diff_drivebotConfig.cmake
+[1.066s] -- Symlinking: /home/vboxuser/ros_ws/src/install/diff_drivebot/share/diff_drivebot/cmake/diff_drivebotConfig-version.cmake
+[1.071s] -- Symlinking: /home/vboxuser/ros_ws/src/install/diff_drivebot/share/diff_drivebot/package.xml
+[1.077s] Invoked command in '/home/vboxuser/ros_ws/src/build/diff_drivebot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/ros_ws/src/build/diff_drivebot

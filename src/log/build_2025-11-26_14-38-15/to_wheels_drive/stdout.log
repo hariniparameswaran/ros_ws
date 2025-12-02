@@ -1,0 +1,36 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vboxuser/ros_ws/src/build/to_wheels_drive
+-- Install configuration: ""
+-- Installing: /home/vboxuser/ros_ws/src/install/to_wheels_drive/share/ament_index/resource_index/package_run_dependencies/to_wheels_drive
+-- Installing: /home/vboxuser/ros_ws/src/install/to_wheels_drive/share/ament_index/resource_index/parent_prefix_path/to_wheels_drive
+-- Installing: /home/vboxuser/ros_ws/src/install/to_wheels_drive/share/to_wheels_drive/environment/ament_prefix_path.sh
+-- Installing: /home/vboxuser/ros_ws/src/install/to_wheels_drive/share/to_wheels_drive/environment/ament_prefix_path.dsv
+-- Installing: /home/vboxuser/ros_ws/src/install/to_wheels_drive/share/to_wheels_drive/environment/path.sh
+-- Installing: /home/vboxuser/ros_ws/src/install/to_wheels_drive/share/to_wheels_drive/environment/path.dsv
+-- Installing: /home/vboxuser/ros_ws/src/install/to_wheels_drive/share/to_wheels_drive/local_setup.bash
+-- Installing: /home/vboxuser/ros_ws/src/install/to_wheels_drive/share/to_wheels_drive/local_setup.sh
+-- Installing: /home/vboxuser/ros_ws/src/install/to_wheels_drive/share/to_wheels_drive/local_setup.zsh
+-- Installing: /home/vboxuser/ros_ws/src/install/to_wheels_drive/share/to_wheels_drive/local_setup.dsv
+-- Installing: /home/vboxuser/ros_ws/src/install/to_wheels_drive/share/to_wheels_drive/package.dsv
+-- Installing: /home/vboxuser/ros_ws/src/install/to_wheels_drive/share/ament_index/resource_index/packages/to_wheels_drive
+-- Installing: /home/vboxuser/ros_ws/src/install/to_wheels_drive/share/to_wheels_drive/cmake/to_wheels_driveConfig.cmake
+-- Installing: /home/vboxuser/ros_ws/src/install/to_wheels_drive/share/to_wheels_drive/cmake/to_wheels_driveConfig-version.cmake
+-- Installing: /home/vboxuser/ros_ws/src/install/to_wheels_drive/share/to_wheels_drive/package.xml
